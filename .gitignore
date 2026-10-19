@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints and training state
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Generated experiment outputs
+outputs/
+runs/
+logs/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
